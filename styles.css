@@ -391,3 +391,13 @@ background-color: var(--body-color);
   font-size: 1.5rem;
   margin-bottom: .75rem;
 }
+
+/* ===TESTIMONIALS== */
+
+#testimonials{
+  background-color: var(--body-color);
+}
+
+#testimonials blockquote{
+
+}
