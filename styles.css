@@ -23,15 +23,15 @@ img {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 1;
+  --hue: 159;
   /* HSL color mode */
-  --base-color: hsl(var(--hue) 100% 50%);
-  --base-color-second: hsl(var(--hue) 70% 45%);
-  --base-color-alt: hsl(var(--hue) 0% 53%);
-  --title-color: hsl(var(--hue) 0% 87%);
+  --base-color: hsl(var(--hue) 36% 57%);
+  --base-color-second: hsl(var(--hue) 65% 88%);
+  --base-color-alt: hsl(var(--hue) 57% 53%);
+  --title-color: hsl(var(--hue) 41% 10%);
   --text-color: hsl(0 0% 46%);
   --text-color-light: hsl(0 0% 98%);
-  --body-color: rgb(0, 0, 0);
+  --body-color: hsl(0 0% 98%);
 }
 
 
@@ -92,10 +92,7 @@ body {
 }
 
 /*====  LAYOUT ============================ */
-.container {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
+
 
 .grid {
   display: grid;
