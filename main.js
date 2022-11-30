@@ -30,3 +30,49 @@ window.addEventListener('scroll', function () {
     header.classList.remove('scroll')
   }
 })
+
+
+
+// TESTIMONIELS CARRUCEL SLIDER
+
+const swiper = new Swiper('.swiper', {
+
+  slidesPerView:1,
+  pagination: {
+  el:'.swiper-pagination'
+  },
+
+  mousewheel: true,
+  keyboard: true,
+
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  
+})
+
+// SCROLLREVEL MOSTRA ELEMENTOS QUANDO DAR SCROLL NA PAGINA 
+
+const scrollReveal = ScrollReveal({
+  origin:'top',
+  distance:'30px',
+  duration:700,
+  reset: true,
+})
+
+scrollReveal.reveal(
+  `
+  #home .image, #home .text,
+  #about .image, #about .text,
+  #services header, #services .cards,
+  #testimonials header, #testimonials .testimonials,
+  #contact .text, #contact .links
+
+`,
+ { interval:100}
+)
