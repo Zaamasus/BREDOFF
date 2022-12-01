@@ -87,14 +87,21 @@ scrollReveal.reveal(
 
 // BOTAO VOLTA PARA O TOPO
 
-const backToTopButton = document.querySelector('.back-to-top')
-window.addEventListener('scroll', function () {
+function backToTop() {
+  
+  const backToTopButton = document.querySelector('.back-to-top')
+
+
   if (window.scrollY >= 560) {
     backToTopButton.classList.add('show')
   } else {
     backToTopButton.classList.remove('show')
   }
-})
+
+}
+
+
+
 
 
 window.addEventListener('scroll', function () {
