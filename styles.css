@@ -22,8 +22,8 @@ img {
 :root {
   --header-height: 4.5rem;
 
-  /* colors */
-  --hue: 1;
+  /* colors */in
+  --hue: 15;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 100% 50%);
   --base-color-second: hsl(var(--hue) 70% 45%);
