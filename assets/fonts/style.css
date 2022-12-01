@@ -58,7 +58,9 @@
 .icon-whatsapp:before {
   content: "\e909";
 }
-
+.icon-woman-hair:before {
+  content: "\e90a";
+}
 .icon-youtube:before {
   content: "\e90b";
 }
