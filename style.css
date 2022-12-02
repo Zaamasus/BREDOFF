@@ -148,7 +148,9 @@ body {
 }
 
 .logo span {
+  font: 700 1.31rem var(--title-font);
   color: var(--base-color);
+  
 }
 
 .logo-alt span {
@@ -558,6 +560,12 @@ footer .social a:hover {
 
   .section {
     padding: 10rem 0;
+  }
+
+  .logo span {
+    font: 700 1.31rem var(--title-font);
+    color: var(--base-color);
+    
   }
 
   .section header,
