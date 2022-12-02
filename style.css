@@ -443,6 +443,14 @@ nav.show div.icon-close {
 .swiper-pagination-bullet-active {
   background: var(--base-color);
 }
+.swiper-scrollbar{
+  background-color: wheat;
+  border:none;
+}
+.swiper-scrollbar-drag{
+  border:none;
+  background:  var(--base-color);
+}
 
 /*====  CONTACT ============================ */
 #contact .grid {
@@ -646,9 +654,13 @@ footer .social a:hover {
   }
 
   .swiper-scrollbar{
-    background-color: var(--base-color)
+    background-color: wheat;
   }
-
+  .swiper-scrollbar-drag{
+    background:  var(--base-color);
+    border: none;
+  }
+  
   /* contact */
   #contact .container {
     grid-auto-flow: column;
