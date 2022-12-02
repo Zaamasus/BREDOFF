@@ -444,7 +444,7 @@ nav.show div.icon-close {
   background: var(--base-color);
 }
 .swiper-scrollbar{
-  background-color: wheat;
+  background-color: rgb(255, 255, 255);
   border:none;
 }
 .swiper-scrollbar-drag{
@@ -654,12 +654,14 @@ footer .social a:hover {
   }
 
   .swiper-scrollbar{
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
+    border:none;
   }
   .swiper-scrollbar-drag{
+    border:none;
     background:  var(--base-color);
-    border: none;
   }
+  
   
   /* contact */
   #contact .container {
