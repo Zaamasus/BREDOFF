@@ -346,8 +346,9 @@ nav.show div.icon-close {
 }
 
 /*====  SERVICES ============================ */
-
-
+.color{
+  color: var(--base-color);
+}
 .cards.grid {
   gap: 1.5rem;
 }
@@ -501,6 +502,10 @@ footer .brand p {
   margin-bottom: 0.75rem;
 }
 
+footer .brand  a span{
+  color: var(--body-color);
+  font-size: 2.25rem;
+}
 footer i {
   font-size: 1.5rem;
   color: var(--text-color-light);
