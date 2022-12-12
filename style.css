@@ -497,7 +497,7 @@ nav.show div.icon-close {
 position: fixed;
 bottom: 4rem;
 right: 1rem;
-
+cursor: pointer;
 }
 
 /*====  FOOTER ============================ */
