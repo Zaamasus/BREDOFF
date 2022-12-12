@@ -493,7 +493,7 @@ nav.show div.icon-close {
 
 #contact .whatsapp-fluter i{
   color: rgb(0, 255, 0);
-  font-size: 3rem;
+  font-size: 2.5rem;
 position: fixed;
 bottom: 4rem;
 right: 1rem;
@@ -701,6 +701,9 @@ footer .social a:hover {
 
   #contact .text {
     max-width: 25rem;
+  }
+  #contact .whatsapp-fluter i{
+    display: none;
   }
 
   /* footer */
