@@ -13,25 +13,22 @@ a {
   text-decoration: none;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
+
 
 /*====  VARIABLES ============================ */
 :root {
-  --header-height: 4.5rem;
+  --header-height: 7rem;
 
   /* colors */
-  --hue:2;
+  --hue:26;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 100% 50%);
   --base-color-second: hsl(var(--hue) 65% 50%);
   --base-color-alt: hsl(var(--hue) 57% 53%);
-  --title-color: white;
+  --title-color: rgb(249, 249, 249);
   --text-color: rgb(255, 255, 255);
   --text-color-light: hsl(0 0% 98%);
-  --body-color: rgb(14, 13, 13);
+  --body-color: rgb(0, 0, 0);
 
   /* fonts */
   --title-font-size: 1.875rem;
@@ -40,7 +37,6 @@ img {
   --title-font: 'Poppins', sans-serif;
   --body-font: 'DM Sans', sans-serif;
 }
-
 /*===  BASE ============================ */
 html {
   scroll-behavior: smooth;
@@ -70,7 +66,12 @@ body {
   font: 500 1rem var(--body-font);
   transition: background 0.3s;
 }
+.paragraph{
 
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
 .button:hover {
   background: var(--base-color-alt);
 }
@@ -285,7 +286,7 @@ nav.show div.icon-close {
 
 #home .image img {
   position: relative;
-  right: 2.93rem;
+  right: -0.07rem;
 }
 
 #home .image img,
@@ -305,6 +306,10 @@ nav.show div.icon-close {
 
 #home .text p {
   margin-bottom: 2rem;
+}
+.image img{
+  width: 100%;
+  height: a;
 }
 
 /*====  ABOUT ============================ */
